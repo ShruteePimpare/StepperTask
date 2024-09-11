@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enhanced Stepper with Previous and Next Options</title>
+</head>
+<body>
+    <div class="stepper">
+        <div class="step-container">
+            <div class="step" id="step1">1</div>
+            <div class="label">Form Details</div>
+        </div>
+        <div class="line"></div> 
+        <div class="step-container">
+            <div class="step" id="step2">2</div>
+            <div class="label">Personal Info</div>
+        </div>
+        <div class="line"></div>
+        <div class="step-container">
+            <div class="step" id="step3">3</div>
+            <div class="label">Payment</div>
+        </div>
+        <div class="line"></div>
+        <div class="step-container">
+            <div class="step" id="step4">4</div>
+            <div class="label">Review</div>
+        </div>
+        <div class="line"></div>
+        <div class="step-container">
+            <div class="step" id="step5">5</div>
+            <div class="label">Submit</div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="previousStep()">Previous Step</button>
+        <button onclick="nextStep()">Next Step</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
